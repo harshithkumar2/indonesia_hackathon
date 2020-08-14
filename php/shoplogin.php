@@ -18,7 +18,7 @@ if(isset($_POST['shop_login'])){
         session_start();
         $_SESSION['userID'] = $row['Id'];
         $_SESSION['userName'] = $row['Uname'];
-        header("location: ../index.php?success=loggedIN");
+        header("location: ../home.php?success=loggedIN");
         exit();
       }else{
         header("location: ../shop_login.php?error=wrongpwd");
