@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+}
+
+label{
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+}
+
+h3{
+  text-align: center;
+  box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+}
